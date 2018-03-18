@@ -2,11 +2,23 @@
 kdb+/q interface for TinySoft
 
 
-# 功能
+*kdb+读取天软TSL(http://www.tinysoft.com.cn)数据，天软已提供ODBC接口，建议采用ODBC接口读取，例子见 qTSLODBC 目录。*
+
+
+
+
+
+#  ==================================================================================
+
+#  以下为旧版，不推荐使用。
+
+#  ==================================================================================
+
+# 旧版功能
 
     在kdb+中调用天软TSL(http://www.tinysoft.com.cn)，天软必须安装32位版本！！！
 
-# 依赖
+# 旧版依赖
 
 	q/tsl.q
 	
@@ -14,7 +26,7 @@ kdb+/q interface for TinySoft
 	
 	q/w32/msvcp120.dll, q/w32/msvcr120.dll  q/w32/zlibwapi.dll
 
-# 用法
+# 旧版用法
 
 1.第一次使用前，把qtsl.dll复制到天软安装目录（TSExpert.exe所在目录）!!!
 
